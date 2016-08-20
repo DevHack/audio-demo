@@ -1,0 +1,13 @@
+{
+  "name": "audio-hack",
+  "version": "0.0.1",
+  "description" : "An HTML5 solution to play audio for all device and all browsers",
+  "license": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "2.2.2"
+  },
+  "resolutions": {
+    "jquery": "2.2.2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "audio-hack",
+  "version": "0.0.1",
+  "description" : "An HTML5 solution to play audio for all device and all browsers",
+  "devDependencies": {
+      "http-server" : "latest",
+      "babel-cli": "^6.0.0",
+      "babel-preset-es2015": "^6.0.0",
+      "browserify" : "latest",
+      "babelify" : "latest",
+      "bower" : "latest"
+  },
+  "scripts": {
+    "postinstall" : "bower install",
+    "build": "node build.js"
+  }
+}
